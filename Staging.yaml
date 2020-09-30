@@ -1,0 +1,15 @@
+trigger:
+- staging
+
+# no PR triggers
+pr: none
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(build.sourcesDirectory)'
+    includeRootFolder: false
+- task: PublishBuildArtifacts@1
