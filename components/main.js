@@ -127,7 +127,7 @@ class FooterNav extends window.HTMLElement {
           <a href="/accessibility.html">Accessibility</a>
       </li>
       <li>
-          <a href="/pdf/WebsiteAccessibilityCert-vision2023.cdt.ca.gov.pdf">Accessibility Certification</a>
+          <a href="/accessibility-certification.html">Accessibility Certification</a>
       </li>
   </ul>`;
     }
